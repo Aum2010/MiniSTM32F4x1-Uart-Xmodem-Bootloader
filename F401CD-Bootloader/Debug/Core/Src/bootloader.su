@@ -1,0 +1,9 @@
+../Core/Src/bootloader.c:17:13:uart_receive_byte	16	static
+../Core/Src/bootloader.c:22:13:uart_send_byte	16	static
+../Core/Src/bootloader.c:44:16:addr_to_sector	24	static
+../Core/Src/bootloader.c:55:20:flash_erase_app	40	static
+../Core/Src/bootloader.c:72:20:flash_write_word	16	static
+../Core/Src/bootloader.c:81:16:xmodem_checksum	24	static
+../Core/Src/bootloader.c:90:13:bootloader_receive_xmodem	176	static
+../Core/Src/bootloader.c:223:6:bootloader_app_valid	16	static
+../Core/Src/bootloader.c:250:6:bootloader_jump_to_app	24	static,ignoring_inline_asm
